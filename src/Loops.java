@@ -88,13 +88,13 @@ public class Loops {
         Scanner scanner = new Scanner(System.in);
         String guess;
 
-        do{
-            System.out.println("Enter guess: ");
-            guess = scanner.next();
-            if(guess < randomNumber){
-
-            }
-        }
+//        do{
+//            System.out.println("Enter guess: ");
+//            guess = scanner.next();
+//            if(guess < randomNumber){
+//
+//            }
+//        }
 
     }
 

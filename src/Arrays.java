@@ -39,7 +39,7 @@ public class Arrays {
 //        double[] bar = new double[3];
 //        System.out.println(bar[1]);
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //
 //        String[] predictions = new String[3];
 //        predictions[0] = "a pioneer";
@@ -69,6 +69,62 @@ public class Arrays {
 //        }
 //
 //        System.out.println("Fastest time: " + fastestTime);
+
+        exercises();
+    }
+
+    public static void exercises() {
+
+        // Exercise 1
+//        int[] array1 = {1,2,3,4,5,6,7,8,9,10};
+//
+//        for(int i = 0 ; i < array1.length ; i++){
+//            System.out.println(array1[i]);
+//        }
+
+        // Exercise 2
+//        int[] array2 = new int [20];
+//
+//        for ( int i = 0 ; i < array2.length ; i++){
+//            array2[i] = i + 1;
+//        }
+//
+//        for (int i = array2.length - 1 ; i >= 0 ; i--){
+//            System.out.println(array2[i]);
+//        }
+
+        // Exercise 3
+//        double[] array3 = {3.0, 6.6, 45.3, 76.2, 110.3};
+//        double sum = 0;
+//        int length = array3.length;
+//
+//        for ( int i = 0 ; i < array3.length ; i++){
+//            sum = sum + array3[i];
+//        }
+//
+//        System.out.println("Sum: " + sum);
+//        System.out.println("Mean: " + (sum/ length));
+
+        // Exercise 4
+        Scanner scanner = new Scanner(System.in);
+        String[] foodArray = new String [3];
+
+        for ( int i = 0 ; i < 4 ; i++){
+            System.out.print((i+1) + " - Top Food: ");
+            String favoriteFood  = scanner.nextLine();
+            if (i < 3) {
+                foodArray[i] = favoriteFood;
+            }
+            else{
+                System.out.println("No more memory!");
+            }
+        }
+        for ( int i = 0 ; i < foodArray.length ; i++){
+            System.out.println(foodArray[i]);
+        }
+
+
+
 
     }
 }
